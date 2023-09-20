@@ -8,6 +8,7 @@ Como desafio, adicione dois novos produtos da sua escolha à lista."""
 lista_produtos = ['máscaras faciais', 'batons', 'esmaltes', 'perfumes', 'loções', 'xampus', 'sabonetes', 'delineadores'] 
 lista_produtos[1] = 'rimel'
 lista_produtos[4] = 'cremes hidratantes'
+lista_produtos.pop()
 lista_produtos.append('protetor solar')
 lista_produtos.append('chinelos')
 for produtos in lista_produtos:
